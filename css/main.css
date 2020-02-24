@@ -1,5 +1,6 @@
 body {
-    background-color: thistle;
+    background-image: url(../img/background2.jpg);
+   
 }
     .main {
         margin: 50px;
@@ -23,6 +24,7 @@ body {
                 padding: 10px;
                 background-color: #ffc600;
                 font-weight: bold;
+                border: 1px solid red;
             }
 
 
@@ -57,6 +59,7 @@ body {
                     height: 100%;
                     width: 100%;
                     grid-area: f;
+                    border: 1px solid red;
                     
         
                 }
@@ -72,6 +75,7 @@ body {
                     max-width:  260px;
                     border: 1px solid black;
                     display: flex;
+
 
                 }
                 .good {
@@ -98,6 +102,7 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    border: 1px solid red;
     
                 }
                 .kambucha {
@@ -109,6 +114,7 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    border: 1px solid red;
 
                 }
             .trecias {
@@ -124,6 +130,7 @@ body {
             .maziukai {
                 background-color: red;
                 padding: 10px 5px 10px 5px;
+                border: 1px solid black;
 
             }
             .pavadinimas {
@@ -137,6 +144,7 @@ body {
              width: 100%;
              overflow: hidden; 
              margin-top: 10px;
+             border: 1px solid red;
              
         }
        
@@ -185,20 +193,17 @@ body {
                 grid-gap: 10px;
                 grid-template-columns: repeat(auto-fit , minmax( 200px , 1fr));
                 width: 100%;
-                margin-top: 20px;
+                
                 padding-left: 50px;
                 padding-right: 50px;
                 
             }
             .instafoto {
                 width: 100%;
+                border: 1px solid red;
             }
 
-            .linija {
-                
-                display: inline-block;
-  
-            }
+        
             
                
             
